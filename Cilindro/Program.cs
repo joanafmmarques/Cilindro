@@ -6,10 +6,16 @@ namespace Cilindro
     {
         static void Main(string[] args)
         {
+            string a;
+            string r;
+            double area;
+            double raio;
             Console.WriteLine("Insira a altura do cilindro");
-            string a = Console.ReadLine();
+            a = Console.ReadLine();
+            area = Convert.ToDouble(a);
             Console.WriteLine("Insira o raio do cilindro");
-            string r = Console.ReadLine();
+            r = Console.ReadLine();
+            raio = Convert.ToDouble(r);
         }
     }
 }
