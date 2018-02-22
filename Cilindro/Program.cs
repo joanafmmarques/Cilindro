@@ -21,10 +21,10 @@ namespace Cilindro
             r = Console.ReadLine();
             raio = Convert.ToDouble(r);
 
-            volume = 3.1415926 * raio * raio * altura;
+            volume = Math.PI * raio * raio * altura;
             Console.WriteLine(volume);
 
-            area = 2 * 3.1415926 * raio * (raio + altura);
+            area = 2 * Math.PI * raio * (raio + altura);
             Console.WriteLine(area);
 
         }
