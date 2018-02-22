@@ -11,6 +11,7 @@ namespace Cilindro
             double altura;
             double raio;
             double volume;
+            double area;
 
             Console.WriteLine("Insira a altura do cilindro");
             a = Console.ReadLine();
@@ -20,8 +21,11 @@ namespace Cilindro
             r = Console.ReadLine();
             raio = Convert.ToDouble(r);
 
-            volume = 3.14 * raio * raio * altura;
+            volume = 3.1415926 * raio * raio * altura;
             Console.WriteLine(volume);
+
+            area = 2 * 3.1415926 * raio * (raio + altura);
+            Console.WriteLine(area);
 
         }
     }
